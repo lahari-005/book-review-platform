@@ -1,0 +1,115 @@
+/* 1. GLOBAL / SHARED STYLES */
+/* Add or adjust shared styles here (colors, layout helpers, etc.) */
+
+
+
+/* 2. LANDING PAGE STYLES */
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 8rem);
+  text-align: center;
+}
+
+.landing-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.landing-text {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.landing-button {
+  padding: 0.75rem 2rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific button variations */
+.login-btn {
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+}
+
+.signup-btn {
+  background-color: var(--secondary-color);
+  color: var(--light-text-color);
+}
+
+
+
+/* 3. BOOK LIST / EMPTY MESSAGE */
+.no-books-message {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+
+
+/* 4. BOOK DETAILS PAGE */
+.book-details-page {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.details-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.details-author {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #555;
+}
+
+.details-rating {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: var(--secondary-color);
+}
+
+.rating-value {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.book-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.details-section {
+  margin-bottom: 1.5rem;
+}
+
+.details-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.25rem;
+}

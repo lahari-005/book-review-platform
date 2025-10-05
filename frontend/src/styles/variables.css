@@ -1,0 +1,12 @@
+/* frontend/src/styles/variables.css */
+:root {
+  --primary-color: #D291BC;
+  --secondary-color: #4B0082;
+  --background-color: #FEEBF5;
+  --text-color: #4B0082;
+  --light-text-color: #ffffff;
+  --accent-color: #ff99cc;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.3s;
+}
